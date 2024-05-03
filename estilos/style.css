@@ -1,0 +1,183 @@
+/* Principais */
+body{
+    background-color: rgb(250, 250, 241);
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.navbar, .fundo{
+    background-color: #ba0909;
+    padding: 30px;
+    margin-bottom: 8%;
+}
+.footer{
+    background-color: #ba0909;
+    padding: 30px;
+    margin-top: 8%;
+}
+
+/* titulo, texto */
+.texto{
+    text-align: justify;
+    font-size: 15px;
+}
+.titulo{
+    text-align: center;
+    font-size: 25px;
+}
+
+/* img */
+.img{
+    width: 200px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}
+/*             index             */
+/* parte 1 - topo */
+.topo{
+    text-align: center;
+    margin: 5%;
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid rgb(180, 179, 179);
+}
+
+/* parte 1 - fundos */
+.fundoCharmander{
+    background-color: rgb(241, 135, 135);
+    border-radius: 10%;
+    padding: 5%;
+    margin: 2%;
+}
+.fundoBulbasaur{
+    background-color: rgb(135, 241, 181);
+    border-radius: 10%;
+    padding: 5%;
+    margin: 2%;
+}
+.fundoSquirtle{
+    background-color: rgb(135, 191, 241);
+    border-radius: 10%;
+    padding: 5%;
+    margin: 2%;
+}
+/* gif */
+.gifPikachu{
+    width: 15%;
+}
+.gifPikachu:hover {
+    transform: scale(1.6);
+}
+
+/*             tela tipos             */
+
+/*fundos*/
+.fundoVermelho{
+    background-color: rgb(241, 135, 135);
+    padding: 7%;
+}
+.fundoVerde{
+    background-color: rgb(135, 241, 181);
+    padding: 7%;
+}
+.fundoAzul{
+    background-color: rgb(135, 191, 241);
+    padding: 7%;
+}
+
+/*             tela inscreva-se            */
+
+/* formulario */
+.formulario {
+    display: block;
+    width: 50%;
+    margin: 10px auto 20px auto;
+    background-color: #fefefe;
+    padding: 50px 20px;
+    text-align: center;
+    border: none;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.formulario textarea {
+    height: 100px;
+}
+.formulario button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.formulario button:hover {
+    background-color: #45a049;
+    transform: scale(1.2);
+}
+/* redes sociais */.redes {
+    background-color: rgba(250, 250, 247, 0.896);
+    width: 90%; /* Alterando a largura para que ocupe 90% da largura da tela em dispositivos móveis */
+    margin: 10px auto; /* Margens automáticas para centralizar horizontalmente */
+    padding: 50px 20px;
+    text-align: center;
+    border: none;
+}
+
+.redes h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.redes a {
+    text-decoration: none;
+    color: #333;
+}
+
+.redes img:hover {
+    transform: scale(1.2);
+}
+
+.rede {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.rede:last-child {
+    margin-right: 0;
+}
+
+.rede img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .rede {
+        display: block;
+        margin: 10px 0; 
+        text-align: justify;    
+    }
+    .rede h2{
+        text-align: center;
+    }
+    .rede img {
+        width: 20px;
+        margin-right: 10px;
+        text-align: justify;
+    }
+    /* gif */
+    .gifPikachu{
+        width: 35%;
+    }
+    .gifPikachu:hover {
+        transform: scale(1.6);
+    }
+}
