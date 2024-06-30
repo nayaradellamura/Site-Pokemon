@@ -44,8 +44,8 @@ Este projeto é um site informativo sobre os Pokémons iniciais, criado utilizan
 
 # 🌲Estrutura de Diretórios
 
-```Simple-Website
-  .
+```site-pokemon
+site-pokemon/
 ├── index.html
 ├── tipos.html
 ├── curiosidade.html
